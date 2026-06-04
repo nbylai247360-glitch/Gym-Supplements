@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 0 560 450" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="110" y1="50" x2="520" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5f7cfa" />
+      <stop offset="1" stop-color="#a2d2ff" />
+    </linearGradient>
+    <linearGradient id="label1" x1="180" y1="210" x2="460" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#e5ecff" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="40" fill="#f8f9ff" />
+  <path d="M120 160c0-62 50-112 112-112h176c62 0 112 50 112 112v200c0 62-50 112-112 112H232c-62 0-112-50-112-112V160Z" fill="url(#g1)" opacity="0.24" />
+  <path d="M238 220h164c30 0 54 24 54 54v140c0 30-24 54-54 54H238c-30 0-54-24-54-54V274c0-30 24-54 54-54Z" fill="#ffffff" stroke="#5f7cfa" stroke-width="18" />
+  <path d="M268 280h124" stroke="#5f7cfa" stroke-width="22" stroke-linecap="round" />
+  <path d="M268 346h92" stroke="#5f7cfa" stroke-width="22" stroke-linecap="round" />
+  <circle cx="320" cy="246" r="18" fill="#5f7cfa" />
+  <rect x="220" y="116" width="200" height="52" rx="26" fill="url(#label1)" />
+  <text x="320" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#1f2f65">FitFuel</text>
+  <text x="320" y="176" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#3f4f85">Ultra Whey Blend</text>
+</svg>

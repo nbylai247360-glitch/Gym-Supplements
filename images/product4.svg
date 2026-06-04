@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 0 560 450" fill="none">
+  <defs>
+    <linearGradient id="g4" x1="110" y1="80" x2="520" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b7f2ff" />
+      <stop offset="1" stop-color="#7fb7ff" />
+    </linearGradient>
+    <linearGradient id="label4" x1="176" y1="120" x2="464" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#eef7ff" stop-opacity="0.92" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="520" rx="40" fill="#f5f9ff" />
+  <path d="M180 220c20-60 86-100 148-90 46 8 88 48 104 90 18 50 4 114-50 132-50 16-106 0-134-22-38-30-54-70-68-110Z" fill="url(#g4)" opacity="0.34"/>
+  <path d="M238 204c26-32 70-44 108-32 32 10 58 38 62 74 4 28-6 58-24 78-22 24-58 34-90 26-30-8-56-36-64-66-6-20-2-42 8-60Z" fill="#fff"/>
+  <path d="M288 250h88" stroke="#7fb7ff" stroke-width="20" stroke-linecap="round"/>
+  <path d="M288 320h52" stroke="#7fb7ff" stroke-width="20" stroke-linecap="round"/>
+  <rect x="176" y="110" width="288" height="54" rx="26" fill="url(#label4)" />
+  <text x="320" y="144" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0f6eff">FitFuel</text>
+  <text x="320" y="172" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#3f5f97">Green Fuel Protein</text>
+</svg>

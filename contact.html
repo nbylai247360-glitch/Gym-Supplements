@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | FitFuel</title>
+  <meta name="description" content="Contact FitFuel for supplement guidance, product questions, and coaching support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body data-page="contact">
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Connecting you to support...</p>
+  </div>
+
+  <header class="site-header" id="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Gym Supplements Home">FitFuel</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="track-order.html" class="nav-link">Track Order</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container hero-copy">
+        <small>Contact Us</small>
+        <h1>Need guidance? Reach out and let's build your supplement plan.</h1>
+        <p>Our team is ready to answer product questions, help with orders, and deliver personalized nutrition support.</p>
+      </div>
+    </section>
+
+    <section class="contact-section reveal">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <h2>Contact FitFuel</h2>
+          <p>Send a message or schedule a strategy session with our nutrition experts.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> hello@fitfuel.com</li>
+            <li><strong>Phone:</strong> +1 (800) 555-0141</li>
+            <li><strong>Location:</strong> 420 Performance Avenue, Suite 101</li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Service inquiry" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us about your goals" required></textarea>
+
+          <button type="submit" class="button button-primary">Submit Message</button>
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">FitFuel</a>
+        <p>Premium supplements and nutrition coaching designed for modern athletes.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <nav aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Email: hello@fitfuel.com</p>
+        <p>Phone: +1 (800) 555-0141</p>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 FitFuel. All rights reserved.</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>

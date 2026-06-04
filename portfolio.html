@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | FitFuel</title>
+  <meta name="description" content="Browse the FitFuel product gallery and supplement collections for athletes, recovery, and energy support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body data-page="portfolio">
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Loading portfolio...</p>
+  </div>
+
+  <header class="site-header" id="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Gym Supplements Home">FitFuel</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="track-order.html" class="nav-link">Track Order</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container hero-copy">
+        <small>Portfolio</small>
+        <h1>Modern product gallery for your supplement stack.</h1>
+        <p>Explore premium categories from whey proteins to wellness boosters, all designed for performance and recovery.</p>
+      </div>
+    </section>
+
+    <section class="filter-section reveal">
+      <div class="container section-heading">
+        <small>Filter products</small>
+        <h2>Find the right supplement category quickly.</h2>
+      </div>
+      <div class="container filter-buttons" role="group" aria-label="Portfolio filters">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="protein">Protein</button>
+        <button class="filter-button" data-filter="recovery">Recovery</button>
+        <button class="filter-button" data-filter="energy">Energy</button>
+      </div>
+      <div class="container portfolio-grid" id="portfolio-grid">
+        <article class="portfolio-card" data-category="protein">
+          <img src="images/portfolio1.svg" alt="Whey protein jar" />
+          <div>
+            <h3>Whey Protein</h3>
+            <p>Fast-absorbing protein for muscle growth and recovery.</p>
+          </div>
+        </article>
+        <article class="portfolio-card" data-category="recovery">
+          <img src="images/portfolio2.svg" alt="Recovery supplement jar" />
+          <div>
+            <h3>Recovery Stack</h3>
+            <p>Anti-inflammatory and electrolyte support for next-day performance.</p>
+          </div>
+        </article>
+        <article class="portfolio-card" data-category="energy">
+          <img src="images/portfolio3.svg" alt="Pre-workout energy supplement" />
+          <div>
+            <h3>Pre-Workout</h3>
+            <p>Energy boost formulas to power intense training sessions.</p>
+          </div>
+        </article>
+        <article class="portfolio-card" data-category="all">
+          <img src="images/portfolio4.svg" alt="Supplement bundle pack" />
+          <div>
+            <h3>Performance Bundle</h3>
+            <p>Complete packs curated for strength, energy, and recovery.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">FitFuel</a>
+        <p>Premium supplements and nutrition coaching designed for modern athletes.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <nav aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Email: hello@fitfuel.com</p>
+        <p>Phone: +1 (800) 555-0141</p>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 FitFuel. All rights reserved.</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* Additional mobile-first layout adjustments and responsive refinements */
+
+.hero-section,
+.page-hero,
+.stats-section,
+.service-preview,
+.gallery-preview,
+.testimonial-section,
+.faq-section,
+.about-overview,
+.team-section,
+.roadmap-section,
+.services-list,
+.process-section,
+.plan-cta,
+.filter-section,
+.blog-grid,
+.contact-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-visual {
+  min-height: 320px;
+}
+
+.section-heading h2,
+.page-hero h1 {
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+}
+
+.cards-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 860px) {
+  .cards-grid,
+  .portfolio-grid,
+  .team-grid,
+  .stats-grid,
+  .faq-grid,
+  .timeline-grid,
+  .process-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    gap: 0.75rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .theme-toggle {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-copy p,
+  .section-heading p,
+  .contact-details p,
+  .contact-list li,
+  .feature-card p,
+  .service-card p,
+  .timeline-item p,
+  .blog-card p {
+    font-size: 0.95rem;
+  }
+}

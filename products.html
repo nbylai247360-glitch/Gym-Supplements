@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | FitFuel</title>
+  <meta name="description" content="Shop premium gym supplements with AI-inspired product visuals, clean formulas, and fast checkout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body data-page="products">
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Curating your perfect supplement stack...</p>
+  </div>
+
+  <header class="site-header" id="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Gym Supplements Home">FitFuel</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="track-order.html" class="nav-link">Track Order</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container hero-copy">
+        <small>Products</small>
+        <h1>AI-enhanced supplement visuals with modern formulas you can trust.</h1>
+        <p>Explore premium training blends, protein complexes, and recovery stacks designed for ambitious athletes.</p>
+      </div>
+    </section>
+
+    <section class="products-grid-section reveal">
+      <div class="container section-heading">
+        <small>Featured products</small>
+        <h2>Choose the stack that matches your goal.</h2>
+      </div>
+      <div class="container filter-buttons" role="group" aria-label="Product categories">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="protein">Protein</button>
+        <button class="filter-button" data-filter="preworkout">Pre-Workout</button>
+        <button class="filter-button" data-filter="postworkout">Post-Workout</button>
+        <button class="filter-button" data-filter="creatine">Creatine</button>
+        <button class="filter-button" data-filter="vitamins">Vitamins</button>
+        <button class="filter-button" data-filter="recovery">Recovery</button>
+      </div>
+      <div class="container product-grid" id="portfolio-grid">
+        <article class="product-card" data-category="protein" data-name="Ultra Whey Blend" data-price="39">
+          <img src="images/product1.png" alt="Ultra Whey Blend product image" />
+          <div class="product-copy">
+            <small>Protein</small>
+            <h3>Ultra Whey Blend</h3>
+            <p>High-absorption protein with natural flavor and lean muscle support.</p>
+            <span class="product-price">$39.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Ultra Whey Blend" data-price="39">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="preworkout" data-name="Focus Charge" data-price="29">
+          <img src="images/product2.png" alt="Focus Charge product image" />
+          <div class="product-copy">
+            <small>Pre-Workout</small>
+            <h3>Focus Charge</h3>
+            <p>Stimulant blend for intense energy, sharp focus, and explosive sessions.</p>
+            <span class="product-price">$29.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Focus Charge" data-price="29">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="recovery" data-name="Revive Restore" data-price="34">
+          <img src="images/product3.png" alt="Revive Restore product image" />
+          <div class="product-copy">
+            <small>Recovery</small>
+            <h3>Revive Restore</h3>
+            <p>Recovery complex with BCAAs, electrolytes, and anti-fatigue compounds.</p>
+            <span class="product-price">$34.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Revive Restore" data-price="34">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="protein" data-name="Green Fuel Protein" data-price="42">
+          <img src="images/product4.png" alt="Green Fuel Protein product image" />
+          <div class="product-copy">
+            <small>Protein</small>
+            <h3>Green Fuel Protein</h3>
+            <p>Plant-based protein with digestive support and clean ingredients.</p>
+            <span class="product-price">$42.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Green Fuel Protein" data-price="42">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="postworkout" data-name="Recovery Matrix" data-price="36">
+          <img src="images/recovery-matrix.png" alt="Recovery Matrix post-workout supplement" />
+          <div class="product-copy">
+            <small>Post-Workout</small>
+            <h3>Recovery Matrix</h3>
+            <p>BCAAs, glutamine, and electrolytes for next-day recovery and reduced soreness.</p>
+            <span class="product-price">$36.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Recovery Matrix" data-price="36">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="creatine" data-name="Creatine Surge" data-price="24">
+          <img src="images/creatine-surge.png" alt="Creatine Surge strength supplement" />
+          <div class="product-copy">
+            <small>Creatine</small>
+            <h3>Creatine Surge</h3>
+            <p>Strength-building creatine monohydrate with fruit punch, berry blast, and citrus charge flavor options.</p>
+            <span class="product-price">$24.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Creatine Surge" data-price="24">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="vitamins" data-name="VitaPack Daily" data-price="22">
+          <img src="images/vitapack-daily.png" alt="VitaPack Daily multivitamin pack" />
+          <div class="product-copy">
+            <small>Vitamins</small>
+            <h3>VitaPack Daily</h3>
+            <p>All-in-one vitamin pack built for muscle health, energy, and immune support for athletes.</p>
+            <span class="product-price">$22.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="VitaPack Daily" data-price="22">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="preworkout" data-name="Enduro Boost" data-price="32">
+          <img src="images/enduro-boost.png" alt="Enduro Boost endurance pre-workout" />
+          <div class="product-copy">
+            <small>Pre-Workout</small>
+            <h3>Enduro Boost</h3>
+            <p>Endurance-focused formula with beta-alanine, citrulline, and sustained energy compounds.</p>
+            <span class="product-price">$32.00</span>
+            <div class="product-actions">
+              <button class="button button-secondary add-bundle" data-name="Enduro Boost" data-price="32">Add to Bundle</button>
+              <a href="checkout.html" class="button button-primary">Buy Now</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="bundle-section reveal">
+      <div class="container section-heading">
+        <small>Recommended bundle</small>
+        <h2>Complete your stack with our elite performance kits.</h2>
+      </div>
+      <div class="container cards-grid">
+        <article class="bundle-card">
+          <img src="images/strength-stack.png" alt="Strength Stack bundle" />
+          <h3>Strength Stack</h3>
+          <p>Ultra Whey Blend + Focus Charge for power, recovery, and sustained energy.</p>
+          <span class="product-price">$64.00</span>
+          <button class="button button-secondary add-bundle" data-name="Strength Stack" data-price="64">Add to Bundle</button>
+        </article>
+        <article class="bundle-card">
+          <img src="images/recovery-trio.png" alt="Recovery Trio bundle" />
+          <h3>Recovery Trio</h3>
+          <p>Revive Restore + Green Fuel Protein for replenishment, immune support, and balance.</p>
+          <span class="product-price">$72.00</span>
+          <button class="button button-secondary add-bundle" data-name="Recovery Trio" data-price="72">Add to Bundle</button>
+        </article>
+        <article class="bundle-card">
+          <img src="images/energy-mix.png" alt="Energy Mix bundle" />
+          <h3>Energy Mix</h3>
+          <p>Focus Charge + Ultra Whey Blend for focus, nutrition, and training intensity.</p>
+          <span class="product-price">$60.00</span>
+          <button class="button button-secondary add-bundle" data-name="Energy Mix" data-price="60">Add to Bundle</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="product-benefits reveal">
+      <div class="container section-heading">
+        <small>What makes us different</small>
+        <h2>Advanced formulas, premium sourcing, and seamless checkout.</h2>
+      </div>
+      <div class="container cards-grid">
+        <article class="feature-card">
+          <h3>AI-inspired design</h3>
+          <p>Modern product visuals and clear ingredient insights to support your choice.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Fast order flow</h3>
+          <p>Streamlined checkout and reliable fulfillment for every order.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Trusted ingredients</h3>
+          <p>Formulas built around performance-grade nutrients and clean production.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="bundle-summary" id="bundle-summary" aria-live="polite" hidden>
+    <div class="container bundle-summary-inner">
+      <div>
+        <p class="bundle-label">Your bundle is ready</p>
+        <p><span id="bundle-count">0</span> items • <strong id="bundle-total">$0.00</strong></p>
+      </div>
+      <div class="bundle-actions">
+        <a href="checkout.html" class="button button-primary">Checkout Bundle</a>
+      </div>
+    </div>
+  </div>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">FitFuel</a>
+        <p>Premium supplements and nutrition coaching designed for modern athletes.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <nav aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="checkout.html">Checkout</a>
+          <a href="track-order.html">Track Order</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Email: hello@fitfuel.com</p>
+        <p>Phone: +1 (800) 555-0141</p>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 FitFuel. All rights reserved.</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>
