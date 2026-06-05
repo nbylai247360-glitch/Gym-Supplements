@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us | FitFuel</title>
-  <meta name="description" content="Contact FitFuel for supplement guidance, product questions, and coaching support." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Contact | FitFuel</title>
+  <meta name="description" content="Get in touch with FitFuel for questions, partnerships, or feedback." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
+  <script async src="https://tally.so/widgets/embed.js"></script>
+  <style type="text/css">
+    .tally-embed-frame { position: relative; margin: 0 auto; }
+    iframe { border-radius: 28px; }
+  </style>
 </head>
 <body data-page="contact">
   <div class="page-loader" id="page-loader" aria-hidden="true">
@@ -43,38 +48,16 @@
     <section class="page-hero reveal">
       <div class="container hero-copy">
         <small>Contact Us</small>
-        <h1>Need guidance? Reach out and let's build your supplement plan.</h1>
-        <p>Our team is ready to answer product questions, help with orders, and deliver personalized nutrition support.</p>
+        <h1>Get in touch with the FitFuel team.</h1>
+        <p>Have questions about our supplements, partnerships, or feedback? We're here to help. Fill out the form below and we'll respond within 24 hours.</p>
       </div>
     </section>
 
-    <section class="contact-section reveal">
-      <div class="container contact-grid">
-        <div class="contact-details">
-          <h2>Contact FitFuel</h2>
-          <p>Send a message or schedule a strategy session with our nutrition experts.</p>
-          <ul class="contact-list">
-            <li><strong>Email:</strong> hello@fitfuel.com</li>
-            <li><strong>Phone:</strong> +1 (800) 555-0141</li>
-            <li><strong>Location:</strong> 420 Performance Avenue, Suite 101</li>
-          </ul>
+    <section class="contact-form-section reveal" style="padding: 3rem 0;">
+      <div class="container">
+        <div class="tally-embed-frame" style="min-height: 700px;">
+          <iframe data-tally-src="https://tally.so/r/ZjeaAo?transparentBackground=1" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0" title="FitFuel Contact Form" style="border-radius: 28px; display: block; margin: 0 auto;"></iframe>
         </div>
-        <form id="contact-form" class="contact-form" novalidate>
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required />
-
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required />
-
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" placeholder="Service inquiry" required />
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" placeholder="Tell us about your goals" required></textarea>
-
-          <button type="submit" class="button button-primary">Submit Message</button>
-          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
-        </form>
       </div>
     </section>
   </main>
@@ -106,6 +89,5 @@
 
   <script src="js/animations.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/validation.js"></script>
 </body>
 </html>
